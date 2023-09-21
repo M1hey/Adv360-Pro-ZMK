@@ -1,15 +1,15 @@
 [
 	{
-		"code": "&ht_bl",
-		"name": "&ht_bl",
+		"code": "&hm_l",
+		"name": "&hm_l",
 		"params": [
 			"code"
 		],
 		"type": "UD"
 	},
 	{
-		"code": "_A_SFT",
-		"name": "_A_SFT",
+		"code": "&hm_r",
+		"name": "&hm_r",
 		"params": [
 			"code"
 		],

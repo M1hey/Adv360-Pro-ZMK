@@ -3,8 +3,7 @@
 		"code": "&hm_l",
 		"name": "&hm_l",
 		"params": [
-			"modifier",
-			"code"
+			"modifier code"
 		],
 		"type": "UD"
 	},
@@ -12,8 +11,7 @@
 		"code": "&hm_r",
 		"name": "&hm_r",
 		"params": [
-			"modifier",
-			"code"
+			"modifier code"
 		],
 		"type": "UD"
 	},
@@ -29,8 +27,7 @@
 		"code": "&hm",
 		"name": "&hm",
 		"params": [
-			"modifier",
-			"code"
+			"modifier code"
 		],
 		"type": "UD"
 	}

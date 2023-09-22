@@ -8,7 +8,6 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
     };
     
     hm_r: homerow_mods_right {
@@ -19,7 +18,6 @@
         quick_tap_ms = <175>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
     };
   };
 };

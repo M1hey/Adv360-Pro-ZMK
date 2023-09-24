@@ -16,6 +16,14 @@
 		"type": "UD"
 	},
 	{
+		"code": "&u_lt",
+		"name": "&u_lt",
+		"params": [
+			"mo", "code" 
+		],
+		"type": "UD"
+	},
+	{
 		"code": "&hm",
 		"name": "&hm",
 		"params": [

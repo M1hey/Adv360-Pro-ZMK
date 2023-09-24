@@ -19,7 +19,7 @@
 		"code": "&u_lt",
 		"name": "&u_lt",
 		"params": [
-			"mo", "code" 
+			"mo" "code" 
 		],
 		"type": "UD"
 	},

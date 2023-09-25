@@ -91,8 +91,8 @@
 
         layer_Navigation {
             bindings = <
- &trans       &trans           &trans               &trans                  &trans             &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans       &trans           &trans  &macro_webex_g_mute  &macro_webex_focus_win             &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &trans           &kp LC(LA(LG(LS(K))))               &kp LC(LA(LG(LS(:))))                  &kp LC(LA(LG(LS(G))))             &kp LC(LA(LG(LS(I))))            &kp LC(LA(LG(LS(L))))                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans       &trans           &trans  &macro_webex_g_mute  &macro_webex_focus_win             &kp LC(LA(LG(LS(A))))            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &macro_back  &macro_tab_prev      &macro_tab_next          &macro_alt_tab  &macro_switch_win            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &macro_lang           &trans      &macro_win_left        &macro_win_right     &macro_win_max                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans       &trans           &trans               &trans                  &trans                               &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans

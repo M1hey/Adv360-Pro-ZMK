@@ -7,6 +7,7 @@
         tapping-term-ms = <200>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
+        hold-trigger-key-positions = <KEYS_RIGHT THUMBS>
     };
     
     hm_r: homerow_mods_right {
@@ -16,6 +17,7 @@
         tapping-term-ms = <200>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
+        hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
     };
 
     u_lt: u_lt {

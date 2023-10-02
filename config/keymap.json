@@ -45,7 +45,7 @@
        "&trans", "&kp LC(LA(LG(A)))", "&kp LC(LA(LG(K)))", "&kp LC(LA(LG(COLON)))",   "&kp LC(LA(LG(G)))",      "&kp LC(LA(LG(I)))", "&kp LC(LA(LG(L)))",                                                                        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",            "&trans",   "&macro_webex_g_mute", "&macro_webex_focus_win",    "&macro_alt_tab", "&macro_switch_win",        "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
   "&macro_back",       "&macro_tab_prev",     "&macro_tab_next",        "&kp PG_UP", "&kp PG_DN",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",       "&macro_lang",                "&trans",     "&macro_win_left",       "&macro_win_right",    "&macro_win_max",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",       "&macro_lang",                "&trans",  "&trans",     "&macro_win_left",       "&macro_win_right",    "&macro_win_max",                                                  "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans",            "&trans",                "&trans",              "&trans",                 "&trans",                                "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]

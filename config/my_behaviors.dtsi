@@ -26,7 +26,7 @@
         quick_tap_ms = <175>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
+        hold-trigger-key-positions = <THUMBS_RIGHT>;
     };
     
     hm_r: homerow_mods_right {
@@ -37,7 +37,7 @@
         quick_tap_ms = <175>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <KEYS_LEFT THUMBS>;
+        hold-trigger-key-positions = <THUMBS_LEFT>;
     };
   };
 };

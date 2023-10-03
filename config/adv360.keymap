@@ -19,8 +19,6 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include "my_behaviors.dtsi"
-
 / {
   behaviors {
     #include "macros.dtsi"

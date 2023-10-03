@@ -1,6 +1,6 @@
-macro_lack_unreads: macro_lack_unreads{
+macro_slack_unreads: macro_slack_unreads{
 compatible = "zmk,behavior-macro";
-label = "macro_lack_unreads";
+label = "macro_slack_unreads";
 #binding-cells = <0>;
 bindings = <&kp LG(LS(A))>;
 };

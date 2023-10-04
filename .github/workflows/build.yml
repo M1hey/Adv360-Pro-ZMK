@@ -15,7 +15,7 @@ jobs:
         run: |
           include=$(head -n 1 config/adv360.keymap)
           if [ "$include" != *"my_behaviors.dtsi"* ]; then
-            echo -e "#include \"my_behaviors.dtsi\"$(cat config/adv360.keymap)" > config/adv360.keymap
+            echo "#include \"my_behaviors.dtsi\"$(cat config/adv360.keymap)" > config/adv360.keymap
           fi
           head config/adv360.keymap
       - name: Cache west modules

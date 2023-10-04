@@ -13,17 +13,9 @@ jobs:
         uses: actions/checkout@v3
       - name: Fix my_behaviors.dtsi
         run: |
-          git config --global --add safe.directory /__w/Adv360-Pro-ZMK/Adv360-Pro-ZMK
           echo $(pwd)
           username=$(git log -1 --format=format:%an HEAD)
           echo user: $username
-
-          if [ "$username" = "adv360proapp[bot]" ]; then
-            echo Fixing my_behaviors.dtsi
-            echo -e "#include \"my_behaviors.dtsi\"$(cat config/adv360.keymap)" > config/adv360.keymap
-            echo Fixed, commiting the change
-            git commit --amend --no-edit
-          fi
       - name: Cache west modules
         uses: actions/cache@v3
         env:

@@ -15,6 +15,7 @@ jobs:
         run: |
           echo $(pwd)
           git config --global --add safe.directory /__w/Adv360-Pro-ZMK/Adv360-Pro-ZMK
+          username=$(git log -1 --format=format:%an HEAD)
           echo user: $username
       - name: Cache west modules
         uses: actions/cache@v3

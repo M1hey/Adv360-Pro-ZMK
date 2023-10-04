@@ -14,6 +14,7 @@ jobs:
       - name: Fix my_behaviors.dtsi
         run: |
           echo $(pwd)
+          git config --global --add safe.directory /__w/Adv360-Pro-ZMK/Adv360-Pro-ZMK
           echo user: $username
       - name: Cache west modules
         uses: actions/cache@v3

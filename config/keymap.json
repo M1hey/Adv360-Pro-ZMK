@@ -56,11 +56,11 @@
         "&to 0", "&trans", "&trans",       "&trans",       "&kp CARET", "&kp STAR",                                    "&trans",                     "&trans",                         "&kp GREATER_THAN",        "&kp LESS_THAN",               "&kp INS",         "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans",       "&trans",          "&trans",                            "&trans", "&trans", "&trans",                     "&trans", "&trans",     "&trans",                                   "&trans",                "&trans",         "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans",          "&trans",          "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans",          "&trans",          "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&macro_tab_prev", "&macro_tab_next", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans",          "&trans",          "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans",          "&trans",          "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&macro_slack_unreads",          "&trans", "&macro_chrome_detach",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",               "&trans",          "&trans",               "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",      "&macro_tab_prev", "&macro_tab_next",               "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",               "&trans",          "&trans",               "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans",               "&trans",          "&trans",                                   "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }

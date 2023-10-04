@@ -14,7 +14,6 @@ jobs:
       - name: Fix my_behaviors.dtsi
         run: |
           echo $(pwd)
-          username=$(git log -1 --format=format:%an HEAD)
           echo user: $username
       - name: Cache west modules
         uses: actions/cache@v3

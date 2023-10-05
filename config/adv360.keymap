@@ -83,7 +83,7 @@
  &trans  &kp F2  &kp F3  &kp F4  &kp F5  &macro_idea_rename            &trans                                                  &trans  &kp F7                 &kp F8                  &kp F9                 &kp F10    &macro_idea_debug  &macro_idea_run
  &trans  &trans  &trans  &trans  &trans              &trans            &trans                                                  &trans  &trans        &macro_idea_run       &macro_idea_debug                  &trans               &trans           &trans
  &trans  &trans  &trans  &trans  &trans              &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_idea_prev_edit  &macro_idea_globsearch  &macro_idea_filesearch  &macro_idea_scratch           &trans
- &trans  &trans  &trans  &trans  &trans              &trans                            &trans                  &trans                  &trans                 &trans                  &trans                  &trans               &trans           &trans
+ &trans  &trans  &trans  &trans  &trans              &trans                            &trans                  &trans                  &trans   &macro_idea_terminal         &macro_idea_git                  &trans               &trans           &trans
  &trans  &trans  &trans  &trans  &trans                                &trans  &trans  &trans                  &trans  &trans  &trans                         &trans                  &trans                  &trans               &trans           &trans
             >;
         };

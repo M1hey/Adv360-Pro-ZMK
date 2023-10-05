@@ -1,3 +1,15 @@
+macro_idea_git: macro_idea_git{
+compatible = "zmk,behavior-macro";
+label = "macro_idea_git";
+#binding-cells = <0>;
+bindings = <&kp LG(N7)>;
+};
+macro_idea_terminal: macro_idea_terminal{
+compatible = "zmk,behavior-macro";
+label = "macro_idea_terminal";
+#binding-cells = <0>;
+bindings = <&kp LG(N6)>;
+};
 macro_idea_filesearch: macro_idea_filesearch{
 compatible = "zmk,behavior-macro";
 label = "macro_idea_filesearch";

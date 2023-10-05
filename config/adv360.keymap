@@ -80,11 +80,11 @@
 
         layer_Idea {
             bindings = <
- &trans  &kp F2  &kp F3  &kp F4  &kp F5  &macro_idea_rename            &trans                                                   &to 0  &kp F7  &hm_r LA(F8) F8  &hm_r LS(F9) F9  &hm_r LS(F10) F10  &macro_idea_debug  &macro_idea_run
- &trans  &trans  &trans  &trans  &trans              &trans            &trans                                                  &trans  &trans           &trans           &trans             &trans             &trans           &trans
- &trans  &trans  &trans  &trans  &trans              &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans           &trans           &trans             &trans             &trans           &trans
- &trans  &trans  &trans  &trans  &trans              &trans                            &trans                  &trans                  &trans           &trans           &trans             &trans             &trans           &trans
- &trans  &trans  &trans  &trans  &trans                                &trans  &trans  &trans                  &trans  &trans  &trans                   &trans           &trans             &trans             &trans           &trans
+ &trans  &kp F2  &kp F3  &kp F4  &kp F5  &macro_idea_rename            &trans                                                  &trans  &kp F7                 &kp F8                  &kp F9  &kp F10    &macro_idea_debug  &macro_idea_run
+ &trans  &trans  &trans  &trans  &trans              &trans            &trans                                                  &trans  &trans        &macro_idea_run       &macro_idea_debug   &trans               &trans           &trans
+ &trans  &trans  &trans  &trans  &trans              &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_idea_prev_edit  &macro_idea_globsearch    &none  &macro_idea_scratch           &trans
+ &trans  &trans  &trans  &trans  &trans              &trans                            &trans                  &trans                  &trans                 &trans                  &trans   &trans               &trans           &trans
+ &trans  &trans  &trans  &trans  &trans                                &trans  &trans  &trans                  &trans  &trans  &trans                         &trans                  &trans   &trans               &trans           &trans
             >;
         };
 

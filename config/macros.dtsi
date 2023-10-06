@@ -1,3 +1,9 @@
+macro_nav_terminal: macro_nav_terminal{
+compatible = "zmk,behavior-macro";
+label = "macro_nav_terminal";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(LG(K)))>;
+};
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";

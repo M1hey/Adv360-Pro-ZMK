@@ -80,11 +80,11 @@
 
         layer_Idea {
             bindings = <
- &trans  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &trans                                                  &trans  &kp F7                  &kp F8                 &kp F9                 &kp F10              &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &macro_idea_run      &macro_idea_debug                  &trans               &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_idea_globsearch  &macro_idea_prev_edit  &macro_idea_filesearch  &macro_idea_scratch   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans    &macro_idea_terminal        &macro_idea_git                  &trans               &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans                 &trans                  &trans               &trans   &trans
+ &trans  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &trans                                                  &trans  &kp F7                  &kp F8                  &kp F9                 &kp F10              &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans         &macro_idea_run       &macro_idea_debug                  &trans  &macro_idea_scratch   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &macro_idea_globsearch  &macro_idea_class_decl  &macro_idea_filesearch  &macro_idea_methods   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans    &macro_idea_terminal         &macro_idea_git                  &trans               &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans                  &trans                  &trans               &trans   &trans
             >;
         };
 

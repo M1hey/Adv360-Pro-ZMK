@@ -8,7 +8,7 @@ macro_idea_class_decl: macro_idea_class_decl{
 compatible = "zmk,behavior-macro";
 label = "macro_idea_class_decl";
 #binding-cells = <0>;
-bindings = <&kp LG(HOME)>, <&kp LA(DOWN_ARROW)>;
+bindings = <&kp LG(HOME)>, <&macro_wait_time 200>, <&kp LA(DOWN_ARROW)>;
 };
 macro_nav_terminal: macro_nav_terminal{
 compatible = "zmk,behavior-macro";

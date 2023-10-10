@@ -18,6 +18,7 @@
 
 #define TAPPING_TERM 175
 #define QUICK_TAP 175
+#define PRIOR_IDLE 50
 
 / {
   behaviors {
@@ -27,6 +28,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <TAPPING_TERM>;
         quick_tap_ms = <QUICK_TAP>;
+        require-prior-idle-ms = <PRIOR_IDLE>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
     };
@@ -37,6 +39,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <TAPPING_TERM>;
         quick_tap_ms = <QUICK_TAP>;
+        require-prior-idle-ms = <PRIOR_IDLE>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
     };

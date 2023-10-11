@@ -1,3 +1,9 @@
+macro_nav_todoist: macro_nav_todoist{
+compatible = "zmk,behavior-macro";
+label = "macro_nav_todoist";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(LG(S)))>;
+};
 macro_idea_methods: macro_idea_methods{
 compatible = "zmk,behavior-macro";
 label = "macro_idea_methods";

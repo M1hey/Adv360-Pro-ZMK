@@ -90,11 +90,11 @@
 
         layer_Navigation {
             bindings = <
- &trans  &trans  &trans              &trans               &trans  &trans              &trans                                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans     &macro_tab_prev      &macro_tab_next  &trans            &kp HOME                                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans           &kp PG_UP            &kp PG_DN  &trans             &kp END                 &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans        &kp LG(HOME)          &kp LG(END)  &trans                                             &macro_webex_focus_win                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)                      &trans  &macro_idea_prev_edit                  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &none
+ &trans  &trans  &trans              &trans               &trans  &trans                           &trans                                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans     &macro_tab_prev      &macro_tab_next  &trans                         &kp HOME                                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans           &kp PG_UP            &kp PG_DN  &trans                          &kp END                 &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans        &kp LG(HOME)          &kp LG(END)  &trans                                                          &macro_webex_focus_win                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)                    &macro_idea_prev_edit  &macro_idea_prev_edit                  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans   &none
             >;
         };
 

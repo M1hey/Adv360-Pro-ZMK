@@ -1,3 +1,9 @@
+macro_dictation: macro_dictation{
+compatible = "zmk,behavior-macro";
+label = "macro_dictation";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(LS(LC(F5))))>;
+};
 macro_nav_pycharm: macro_nav_pycharm{
 compatible = "zmk,behavior-macro";
 label = "macro_nav_pycharm";

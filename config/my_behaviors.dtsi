@@ -16,10 +16,10 @@
 
 #define THUMBS THUMBS_LEFT THUMBS_RIGHT
 
-# totally working
-#TAPPING_TERM 175
-#QUICK_TAP 175
-
+/* totally working
+ * #TAPPING_TERM 175
+ * #QUICK_TAP 175
+*/
 #define TAPPING_TERM 200
 #define QUICK_TAP 150
 #define PRIOR_IDLE 50

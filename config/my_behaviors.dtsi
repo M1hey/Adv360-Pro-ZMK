@@ -20,6 +20,8 @@
 #define QUICK_TAP 175
 #define PRIOR_IDLE 50
 
+CONFIG_ZMK_MOUSE=y
+
 / {
   behaviors {
     hm_l: homerow_mods_left {

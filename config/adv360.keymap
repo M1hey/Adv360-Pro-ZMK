@@ -101,11 +101,11 @@
 
         layer_Nav_macros {
             bindings = <
-              &trans               &trans              &trans                &trans                &trans              &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-              &trans               &trans  &macro_nav_pycharm  &macro_slack_unreads  &macro_chrome_detach  &macro_nav_todoist            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &macro_nav_calendar  &macro_nav_terminal     &macro_nav_idea      &macro_nav_slack     &macro_nav_chrome    &macro_nav_notes            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-              &trans               &trans      &macro_win_max       &macro_win_left      &macro_win_right           &kp LG(M)                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-              &trans               &trans              &trans                &trans                &trans                                &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+              &trans               &trans              &trans                &trans                &trans              &trans                    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+              &trans               &trans  &macro_nav_pycharm  &macro_slack_unreads  &macro_chrome_detach  &macro_nav_todoist                    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &macro_nav_calendar  &macro_nav_terminal     &macro_nav_idea      &macro_nav_slack     &macro_nav_chrome    &macro_nav_notes                    &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+              &trans               &trans              &trans                &trans                &trans           &kp LG(M)                                    &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+              &trans               &trans              &trans       &macro_win_left      &macro_win_right                                &macro_win_max  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 

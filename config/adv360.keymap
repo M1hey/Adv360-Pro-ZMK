@@ -99,7 +99,7 @@
             >;
         };
 
-        layer_Nav_macros {
+        layer_Windows {
             bindings = <
               &trans               &trans              &trans                &trans                &trans              &trans                    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
               &trans               &trans  &macro_nav_pycharm  &macro_slack_unreads  &macro_chrome_detach  &macro_nav_todoist                    &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans

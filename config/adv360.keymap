@@ -45,7 +45,7 @@
          &kp EQUAL                 &kp Q         &kp W             &kp E              &kp R          &kp T                &kp PG_UP                                                                                                            &kp PG_UP           &kp Y              &kp U             &kp I              &kp O                          &kp P    &kp DOUBLE_QUOTES
            &kp ESC  &hm_l LEFT_CONTROL A  &hm_l LALT S    &hm_l LSHIFT D       &hm_l LGUI F          &kp G                &kp PG_DN         &macro_switch_win   &macro_alt_tab                  &macro_spotlight      &kp TAB                  &kp PG_DN           &kp H  &hm_r RIGHT_GUI J    &hm_r RSHIFT K  &hm_r RIGHT_ALT L  &hm_r RIGHT_CONTROL SEMICOLON              &kp SQT
              &to 4                 &kp Z         &kp X             &kp C              &kp V  &hm_l LSHFT B                                                         &macro_lang                   &lt 3 LA(SPACE)                                          &hm_r RSHIFT N              &kp M         &kp COMMA            &kp DOT                       &kp FSLH  &macro_webex_g_mute
- &mt LS(LG(N9)) F2             &kp GRAVE       &kp DEL  &lt 4 LEFT_ARROW  &lt 1 RIGHT_ARROW                              &lt 1 BSPC  &lt 4 LC(LA(LEFT_ARROW))  &macro_tab_prev                   &macro_tab_next  &lt 6 ENTER                &lt 5 SPACE                     &lt 5 UP_ARROW  &lt 6 DOWN_ARROW   &kp LEFT_BRACKET              &kp RIGHT_BRACKET             &kp BSLH
+ &mt LS(LG(N9)) F2             &kp GRAVE       &kp DEL  &lt 4 LEFT_ARROW  &lt 1 RIGHT_ARROW                              &lt 1 BSPC  &lt 4 LC(LA(LEFT_ARROW))  &macro_tab_prev                       &macro_back  &lt 6 ENTER                &lt 5 SPACE                     &lt 5 UP_ARROW  &lt 6 DOWN_ARROW   &kp LEFT_BRACKET              &kp RIGHT_BRACKET             &kp BSLH
             >;
         };
 
@@ -81,11 +81,11 @@
 
         layer_Idea {
             bindings = <
- &trans  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &trans                                                  &trans  &kp F7                  &kp F8                  &kp F9                 &kp F10              &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &kp F6         &macro_idea_run       &macro_idea_debug                  &trans  &macro_idea_scratch   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp F2  &macro_idea_globsearch  &macro_idea_class_decl  &macro_idea_filesearch  &macro_idea_methods   &trans
-  &to 0  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &kp F4    &macro_idea_terminal         &macro_idea_git                  &trans           &kp LC(F6)   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans                  &trans                  &trans               &trans   &trans
+ &trans  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &trans                                                                 &trans  &kp F7                  &kp F8                  &kp F9                 &kp F10              &kp F11  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                 &trans  &kp F6         &macro_idea_run       &macro_idea_debug                  &trans  &macro_idea_scratch   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                                 &trans  &trans  &trans  &kp F2  &macro_idea_globsearch  &macro_idea_class_decl  &macro_idea_filesearch  &macro_idea_methods   &trans
+  &to 0  &trans  &trans  &trans  &trans  &trans                            &trans                                 &trans                  &kp F4    &macro_idea_terminal         &macro_idea_git                  &trans           &kp LC(F6)   &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &macro_idea_prev_edit  &trans  &trans                          &trans                  &trans                  &trans               &trans   &trans
             >;
         };
 

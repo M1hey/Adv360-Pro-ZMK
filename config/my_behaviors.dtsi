@@ -16,11 +16,13 @@
 
 #define THUMBS THUMBS_LEFT THUMBS_RIGHT
 
-#define TAPPING_TERM 175
-#define QUICK_TAP 175
-#define PRIOR_IDLE 50
+# totally working
+#TAPPING_TERM 175
+#QUICK_TAP 175
 
-CONFIG_ZMK_MOUSE=y
+#define TAPPING_TERM 200
+#define QUICK_TAP 150
+#define PRIOR_IDLE 50
 
 / {
   behaviors {

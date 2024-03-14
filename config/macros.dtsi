@@ -92,7 +92,7 @@ macro_nav_slack: macro_nav_slack{
 compatible = "zmk,behavior-macro";
 label = "macro_nav_slack";
 #binding-cells = <0>;
-bindings = <&kp LC(LA(LG(COLON)))>;
+bindings = <&kp LC(LA(LG(SEMICOLON)))>;
 };
 macro_nav_chrome: macro_nav_chrome{
 compatible = "zmk,behavior-macro";

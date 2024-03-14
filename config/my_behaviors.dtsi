@@ -16,6 +16,8 @@
 
 #define THUMBS THUMBS_LEFT THUMBS_RIGHT
 
+#define HYP(key) LS(LC(LA(LG(key))))
+
 /* totally working
  * #TAPPING_TERM 175
  * #QUICK_TAP 175
